@@ -20,7 +20,7 @@
 
 ## About
 
-🐤	2D Racing Game - NEAT
+🏎️	2D Racing Game - NEAT
 
 This project consists on building an 2D racing game and training a NEAT model for the computer learn how to play the game.
 
