@@ -40,7 +40,7 @@ This project is divided into two parts:
 
 **The rules**:
 
-On this game the player controls the movement of a car, the objective is complete the track as fast as possible.
+On this game the player controls the movement of a car, the objective is complete a lap as fast as possible.
 
 If the car hits the track 'walls' he bounces back, so avoiding hitting the walls is a good strategy.
  
@@ -48,7 +48,7 @@ If the car hits the track 'walls' he bounces back, so avoiding hitting the walls
 
 **Mechanics**:
 
-The game is built so the car can move forward and backward and it can rotates, to make left and right turns.
+The game is built so the car can move forward and backward and it can rotate, to make left and right turns.
 
 When the player chooses to move forward, the car will accelerate until he hits his max speed and the same its valid while moving backwards.
 
@@ -64,7 +64,7 @@ There is only one object in this game, the car
 
 NEAT is a model that mutates and evolves given a fitness value - in this case, the greatest the fitness, the better.
 
-In this model, the fitness increases when the hits a checkpoints or finishs a lap.
+In this model, the fitness increases when the car hits a checkpoint or finishes a lap.
 
 And the fitness reduces when the car moves backwards or hits a wall.
 
@@ -83,18 +83,18 @@ And the model gives two outputs either the car should move forward, backward or 
 
 ## Results
 
-The computer was able to complete an lap after a few generations, put there are some room for improvment.
+The computer was able to complete an lap after a few generations, put there are some room for improvement.
 
-First, the best genration moves almost like an ant, changing its direction a lot, even when wasnt neccessary, maybe implementing a mechnich that reduces the car speed when making a turn, would solve this behaviour.
+First, the best generation moves almost like an ant, changing its direction a lot, even when is not necessary, maybe implementing a mechanic that reduces the car speed when making a turn, would solve this behaviour.
 
-Second, the increase of the fitness does not have relashionship if the time passed, adjusting this could make the cars goes faster
+Second, the increase of the fitness currently does not have relationship with time elapsed, adjusting this could make the cars goes faster
 
-Lastly, the track is not perfect, there are some wall points that are not visual in some parts of the track that makes the car collide when it shouldnt have.
+Lastly, the track is not perfect, there are some wall points that are not visual in some parts of the track that makes the car collide when it shouldn’t have.
 
-Despite that, it's easier to perceive the evolution of the generations and the success of this model.
+Despite that, it's easy to perceive the evolution of the generations and the success of this model.
 
 
-![](assets/)
+![](assets/evolution-racing_game.gif)
 
 ---
 
